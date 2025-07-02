@@ -42,24 +42,20 @@ pip install streamlit requests
 🧠 Step 1: Set Up Ollama & Download Mistral
 Make sure Ollama is installed, then run:
 
-bash
-Copy
-Edit
+```bash
 ollama pull mistral:instruct
+```
+
 ▶️ Step 2: Run the Chatbot (CMD)
 💬 Option A: Run in Command Line (Text-based)
-bash
-Copy
-Edit
+```bash
 python medical_chatbot.py
+```
 🖼️ Option B: Run with Streamlit (Web UI)
-bash
-Copy
-Edit
+```bash
 streamlit run medical_chatbot.py
+```
 You’ll see the chatbot at:
-
-arduino
-Copy
-Edit
+```arduino
 http://localhost:8501
+```
