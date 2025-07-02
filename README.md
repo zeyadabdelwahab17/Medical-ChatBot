@@ -59,3 +59,43 @@ You’ll see the chatbot at:
 ```arduino
 http://localhost:8501
 ```
+🔍 Step 3: Track API Logs in Terminal
+In your terminal, you will see:
+
+``yaml
+ Sent to Ollama API:
+<full formatted prompt>
+
+API Status: 200
+Response Time: 0.87 sec
+```
+If there's a failure:
+
+```yaml
+❌ Network Error: [details...]
+OR
+✅ API Status: 500
+❌ Response Body: {"error": "model not loaded"}
+```
+These logs help you debug and verify model behavior.
+
+📌 Notes
+No diagnosis is ever made — only suggestions and education
+
+You must manually start Ollama:
+
+```bash
+ollama run mistral:instruct
+```
+Streamlit UI works only if Ollama is running
+
+🔐 Local Privacy
+All processing is done locally
+
+No data is sent to the cloud
+
+Ideal for secure or offline environments
+
+
+
+
