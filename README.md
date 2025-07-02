@@ -62,7 +62,7 @@ http://localhost:8501
 🔍 Step 3: Track API Logs in Terminal
 In your terminal, you will see:
 
-``yaml
+```yaml
  Sent to Ollama API:
 <full formatted prompt>
 
