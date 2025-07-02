@@ -37,6 +37,7 @@ A local, privacy-friendly medical chatbot that uses the `mistral:instruct` model
 Install Python packages:
 ```bash
 pip install streamlit requests
+```
 
 🧠 Step 1: Set Up Ollama & Download Mistral
 Make sure Ollama is installed, then run:
